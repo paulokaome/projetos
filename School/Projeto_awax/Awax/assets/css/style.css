@@ -99,7 +99,7 @@ header {
   font-weight: bold;
   line-height: 50px;
 }
-.banner .slidearea button{
+.button{
   background-color: #b28756;
   padding: 5px;
   font-size: 15px;
@@ -110,6 +110,10 @@ header {
   border:1px solid transparent;
   font-weight: bold;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 .banner .sliders-pointers{
   width: 100vw;
@@ -155,7 +159,7 @@ header {
 .default .section-body{
   max-width: 1140px;
   margin: auto;
-  height: 100px;
+  min-height: 100px;
 }
 .default.light{
   background-color: #f7f7f7;
@@ -173,7 +177,162 @@ header {
 
 /* ------------------CSS de Areas Comuns------------------- */
 
-
 .section-aboutus{
   display: flex;
+}
+.section-aboutus-left{
+    flex: 1;
+}
+.section-aboutus-right{
+  width: 520px;
+  text-align: center;
+}
+.section-aboutus-right img{
+  width: 480px;
+  box-shadow: 0px 10px 10px #333;
+}
+.section-aboutus-left p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.section-services{
+  display: flex;
+}
+.section-service{
+  flex:1;
+  text-align: center;
+  border-right: 1px solid #333;
+  padding: 10px;
+}
+.section-service h4{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.section-service p{
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+.section-service:first-child{
+  border-left: 1px solid #333;
+}
+
+/* ------------------Section Projects------------------- */
+.section-projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-project-filter{
+    border:1px solid rgb(212, 211, 211);
+    background-color: rgb(230, 228, 228);
+    border-radius: 30px;
+    display: inline-block;
+    padding:0px 20px;
+}
+.section-project-filter ul,.section-project-filter li{
+  list-style: none;
+}
+.section-project-filter li{
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-left: 1px solid rgb(212, 211, 211);
+  color: #555;
+  border-bottom: 3px solid rgb(230, 228, 228);
+  cursor: pointer;
+}
+.section-project-filter li:first-child{
+  border-left: 0px
+}
+.section-project-filter li:hover{
+  border-bottom: 3px solid #b28756
+}
+.section-project-filter li.active{
+  border-bottom: 3px solid #b28756
+}
+.section-project-photos{
+  width: 100vw;
+  max-width: 1140px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.section-project-photo{
+  width: 280px;
+}
+.section-project-photoarea{
+  width: 260px;
+  padding: 10px;
+  height: 160px;
+  margin: 10px;
+
+}
+.section-project-photoarea img{
+ width: inherit;
+ height: inherit;
+}
+.section-project-photoinfo{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  height: inherit;
+  width: inherit;
+  color: #FFF;
+
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.section-project-photoinfo h5{
+  font-size: 20px;
+  font-weight: bold;
+}
+.section-project-photoinfo p{
+  text-align: center;
+}
+.section-project-photoarea:hover .section-project-photoinfo{
+  display: flex;
+} 
+
+
+/* ------------------Section Team------------------- */
+
+
+.bg-team{
+  background-image: url('../images/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  padding:0;
+}
+.section-team-area{
+  background-color: rgba(0,0,0,0.8);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section-team .sliders {
+  height: 100%;
+  width: 1000vw;
+
+}
+.section-team .slide {
+  width: 300px;
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  min-height: 300px;
+}
+.section-team .slidearea{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+
 }
