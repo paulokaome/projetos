@@ -312,6 +312,15 @@ footer p{
   .home_title h3{
     font-size: 25px;
   }
+  .header{
+    width: 100%;
+  }
+  
+  .header_title p{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 30px;
+  }
   .about_text{
     margin-top: 20px;
     width: 400px;
