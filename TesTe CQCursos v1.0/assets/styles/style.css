@@ -332,6 +332,33 @@ footer p{
 
   .challenge_seach button{
     margin:10px 0 0 0;
-
   }
+  .challenge_card {
+    width: 100%;
+    padding: 10px;
+  }
+  .challenge_image img {
+    height: 100px;
+    width: 100px;
+  }
+  .challenge_image span {
+    text-align: center;
+  }
+  .challenge_actions p{
+    font-size: 20px;
+  }
+  .challenge_buttons{
+    flex-direction: column;
+  }
+  
+  .challenge_buttons button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin: 10px 0 0 0 ;
+  }
+  .challenge_btn_close button{
+    margin: 0;
+  }
+
 }
