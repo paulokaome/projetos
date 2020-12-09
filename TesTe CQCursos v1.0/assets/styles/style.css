@@ -288,7 +288,6 @@ margin-top: 10px;
   margin-left: 30px;
 }
 
-
 /* ------------Footer Content------------ */
 
 footer{
@@ -302,4 +301,37 @@ footer p{
   font-size: 18px;
   color: #fff;
 
+}
+
+/* ------------Responsividade------------ */
+
+@media (max-width: 600px){
+  .home_title h1{
+    font-size: 50px;
+  }
+  .home_title h3{
+    font-size: 25px;
+  }
+  .about_text{
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px;
+  }
+  .about_text p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+  .challenge_seach{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .challenge_seach span {
+    margin: 0;
+  }
+
+  .challenge_seach button{
+    margin:10px 0 0 0;
+
+  }
 }
