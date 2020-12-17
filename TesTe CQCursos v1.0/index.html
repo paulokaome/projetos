@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Desafio Qconcurso</title>
+</head>
+
+<body>
+
+  <section id="home">
+    <header>
+      <div class="header">
+        <div class="header_title">
+          <p>Paulo Azevedo</p>
+        </div>
+        <div class="header_menu">
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#challenge">Challenge</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="home_content">
+      <div class="home_title">
+        <h1>Desenvolvedor Front End</h1>
+        <h3>Desafio Qconcurso.com</h3>
+      </div>
+      <div class="home_icon">
+        <img src="./assets/images/LIcon.png" alt="">
+        <img src="./assets/images/LIcon.png" alt="">
+        <img src="./assets/images/LIcon.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about_title">
+      <h2>Sobre</h2>
+    </div>
+    <div class="about_text">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis dapibus massa quis euismod. Nunc quis nunc
+        elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas
+        faucibus in nisi sit amet malesuada. Ut quis enim ultrices, convallis est id, finibus eros. Donec eget justo
+        vitae quam faucibus laoreet. Nullam scelerisque metus est, ac eleifend felis volutpat id. Nulla lorem ex,
+        pulvinar sed lorem et, fringilla condimentum dolor. Donec at mi ex. Suspendisse vitae eros a sem cursus
+        molestie. Pellentesque id orci et odio pellentesque dictum non vitae magna.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis dapibus massa quis euismod. Nunc quis nunc
+        elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas
+        faucibus in nisi sit amet malesuada. Ut quis enim ultrices, convallis est id, finibus eros. Donec eget justo
+        vitae quam faucibus laoreet. Nullam scelerisque metus est, ac eleifend felis volutpat id. Nulla lorem ex,
+        pulvinar sed lorem et, fringilla condimentum dolor. Donec at mi ex. Suspendisse vitae eros a sem cursus
+        molestie. Pellentesque id orci et odio pellentesque dictum non vitae magna.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis dapibus massa quis euismod. Nunc quis nunc
+        elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas
+        faucibus in nisi sit amet malesuada. Ut quis enim ultrices, convallis est id, finibus eros. Donec eget justo
+        vitae quam faucibus laoreet. Nullam scelerisque metus est, ac eleifend felis volutpat id. Nulla lorem ex,
+        pulvinar sed lorem et, fringilla condimentum dolor. Donec at mi ex. Suspendisse vitae eros a sem cursus
+        molestie. Pellentesque id orci et odio pellentesque dictum non vitae magna.
+      </p>
+    </div>
+  </section>
+
+  <section id="challenge">
+    <div class="challenge_title">
+      <h2>Challenge</h2>
+    </div>
+    <div class="challenge_seach">
+      <span>Github Name</span>
+      <input type="text">
+      <button onclick="SearchValue()">Search</button>
+    </div>
+    <div class="challenge_card">
+      <div class="challenge_card_content">
+        <div class="challenge_image">
+          <img class="profile_image" src="./assets/images/avatar.png" alt="">
+          <span><a href="" target="_blank" class="profile_link">visitar perfil</a></span>
+        </div>
+        <div class="challenge_actions">
+          <div>
+            <p class="repositories">-</p>
+            <p class="followers">-</p>
+            <p class="following">-</p>
+          </div>
+          <div class="challenge_buttons">
+            <button onclick="RepoData()">Ver Repositórios</button>
+            <button onclick="FavData()">Ver Favoritos</button>
+          </div>
+        </div>
+      </div>
+      <div class="challenge_Repo hidden">
+        <span>Lista de Repositórios</span>
+        <table class="challenge_table_rep">
+          <tr>
+            <th>Repositórios</th>
+          </tr>
+        </table>
+        <div class="challenge_btn_close">
+          <button onclick="Onclose()">Fechar</button>
+        </div>
+      </div>
+      <div class="challenge_Fav hidden">
+        <span>Lista de Favoritos</span>
+        <table class="challenge_table_fav">
+          <tr>
+            <th>Favoritos</th>
+          </tr>
+        </table>
+        <div class="challenge_btn_close">
+          <button onclick="Onclose()">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desafio Desenvolvedor Front Qconcursos.com</p>
+  </footer>
+
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
