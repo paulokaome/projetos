@@ -1,6 +1,6 @@
 O QUE É:
 
-É uma aplicação criada para fins de estudo em forma de Mini-Eccomerce
+É uma aplicação criada para fins de estudo em forma de Mini e-commerce
 
 INSTALAÇÃO LOCAL:
 
