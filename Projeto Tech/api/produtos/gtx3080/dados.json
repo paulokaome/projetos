@@ -1,0 +1,20 @@
+{
+  "id": "gtx3080",
+  "nome": "GTX 3080",
+  "preco": 6000,
+  "descricao": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+  "estoque": 9,
+  "img": "./api/produtos/gtx3080/gtx3080-foto.jpg",
+  "reviews": [
+    {
+      "nome": "Rogério",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Nathália",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}

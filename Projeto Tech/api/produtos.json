@@ -1,0 +1,44 @@
+[
+  {
+    "id": "notebook",
+    "nome": "MacBook Pro",
+    "preco": 8999,
+    "img": "./api/produtos/notebook/notebook.jpg"
+  },
+  {
+    "id": "smartphone",
+    "nome": "Iphone X",
+    "preco": 1299,
+    "img": "./api/produtos/smartphone/smartphone.jpg"
+  },
+  {
+    "id": "tablet",
+    "nome": "Tablet",
+    "preco": 899,
+    "img": "./api/produtos/tablet/tablet.jpg"
+  },
+  {
+    "id": "smartwatch",
+    "nome": "Smartwatch",
+    "preco": 1199,
+    "img": "./api/produtos/smartwatch/smartwatch.jpg"
+  },
+  {
+    "id": "speaker",
+    "nome": "Speaker",
+    "preco": 599,
+    "img": "./api/produtos/speaker/speaker.jpg"
+  },  
+  {
+    "id": "gtx3080",
+    "nome": "GTX 3080",
+    "preco": 6000,
+    "img": "./api/produtos/gtx3080/gtx3080.jpg"
+  },
+  {
+    "id": "macpro",
+    "nome": "Mac Pro",
+    "preco": 18000,
+    "img": "./api/produtos/macpro/macpro.jpg"
+  }
+]
